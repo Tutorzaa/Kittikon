@@ -139,17 +139,17 @@ nav .donate-btn p {
         align-items: flex-start;
 
 
-        & .menu {
+        .menu {
             background-color: #efefef;
             width: 100%;
 
-            & li {
+            li {
                 margin: 0;
                 margin-top: .5rem;
             }
         }
 
-        & .menu,
+        .menu,
         .donate-btn {
             display: none;
         }
@@ -170,7 +170,7 @@ nav .donate-btn p {
         gap: 1.5rem;
         /* ให้เมนูอยู่ข้างบนสุด */
 
-        & a {
+        a {
             color: #424242;
             font-size: 1.5rem;
             font-weight: 500;
@@ -179,14 +179,14 @@ nav .donate-btn p {
     }
 
     .blog1 {
-        & .massage {
-            & h1 {
+        .massage {
+            h1 {
                 color: #424242;
                 font-size: 2.5rem !important;
                 font-weight: 600;
             }
 
-            & p {
+            p {
                 font-size: 1.2rem !important;
             }
         }
@@ -195,7 +195,7 @@ nav .donate-btn p {
 
 @media only screen and (min-width: 781px) {
     nav {
-        & .ham-menu {
+        .ham-menu {
             display: none;
         }
     }
@@ -204,9 +204,9 @@ nav .donate-btn p {
 @media only screen and (max-width: 600px) {
 
     .blog1 {
-        & .massage {
+        .massage {
 
-            & p {
+            p {
                 font-size: 1rem !important;
             }
         }
@@ -216,9 +216,9 @@ nav .donate-btn p {
 @media only screen and (max-width: 480px) {
 
     .blog1 {
-        & .massage {
+        .massage {
 
-            & p {
+            p {
                 font-size: 0.72rem !important;
             }
         }
@@ -231,23 +231,23 @@ nav .donate-btn p {
     align-items: center;
     margin-top: 100px;
 
-    & .massage {
+    .massage {
         display: flex;
         flex-direction: column;
         width: 60%;
         gap: 1.5rem;
 
-        & h1 {
+        h1 {
             color: #424242;
             font-size: 3rem;
         }
 
-        & p {
+        p {
             font-weight: 400;
             font-size: 1.2rem;
             color: rgb(115 115 115);
 
-            & a {
+            a {
                 text-decoration: none;
                 color: rgb(39, 39, 39);
             }
@@ -264,14 +264,14 @@ footer {
     justify-content: center;
     margin-top: 3rem;
 
-    & a {
+    a {
         color: #333333;
         text-decoration: none;
         margin-top: 70px;
         margin-bottom: 1.5rem;
     }
 
-    & .cr {
+    .cr {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -279,11 +279,11 @@ footer {
         width: 90%;
         height: 60px;
 
-        & p {
+        p {
             color: #333333;
             font-size: 1rem;
 
-            & a:hover {
+            a:hover {
                 border-bottom: 1px solid #333333;
             }
         }

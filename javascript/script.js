@@ -49,3 +49,15 @@ mediaQuery.addEventListener("change", handleResponsiveChange);
 
 // เรียกใช้ฟังก์ชันเพื่อให้ทำงานตอนโหลดหน้าเว็บ
 handleResponsiveChange(mediaQuery);
+
+document.querySelectorAll(".nothing-alert").forEach(function (link) {
+    link.addEventListener("click", function (event) {
+      event.preventDefault();
+      Swal.fire({
+        icon: "error",
+        title: "ก็ยังว่า Don't have anything",
+        text: "กดไปเหอะไม่มีอะไรหรอก / Just click it, nothing's gonna happen lol.",
+        confirmButtonText: "ตกลง / OK"
+      });
+    });
+  });

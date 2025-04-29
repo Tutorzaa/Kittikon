@@ -139,17 +139,17 @@ nav .donate-btn p {
         align-items: flex-start;
 
 
-        & .menu {
+        .menu {
             background-color: #efefef;
             width: 100%;
 
-            & li {
+            li {
                 margin: 0;
                 margin-top: .5rem;
             }
         }
 
-        & .menu,
+        .menu,
         .donate-btn {
             display: none;
         }
@@ -170,7 +170,7 @@ nav .donate-btn p {
         gap: 1.5rem;
         /* ให้เมนูอยู่ข้างบนสุด */
 
-        & a {
+        a {
             color: #424242;
             font-size: 1.5rem;
             font-weight: 500;
@@ -181,19 +181,22 @@ nav .donate-btn p {
 
 @media only screen and (min-width: 781px) {
     nav {
-        & .ham-menu {
+        .ham-menu {
             display: none;
         }
     }
 }
 
 @media only screen and (max-width: 480px) {
-    .blog1,.blog2,.blog3 {
+
+    .blog1,
+    .blog2,
+    .blog3 {
         padding: 1.5rem;
     }
 
     button {
-        max-width: none;    
+        max-width: none;
     }
 }
 
@@ -204,40 +207,41 @@ nav .donate-btn p {
     justify-content: center;
     text-align: center;
 
-    & .profile img {
+    .profile img {
         width: 114px;
-        height: auto;
+        height: 114px;
+        object-fit: cover;
         border-radius: 50%;
         margin-top: 80px;
         margin-bottom: 20px;
     }
 
-    & h1 {
+    h1 {
         font-weight: bolder;
         font-size: 2rem;
         margin-bottom: 25px;
         color: #424242;
     }
 
-    & p {
+    p {
         font-weight: 400;
         font-size: 1.15rem;
         margin-bottom: 25px;
         color: #424242c2;
     }
 
-    & .contact-icon {
+    .contact-icon {
         display: flex;
         justify-content: center;
         gap: 1rem;
 
-        & a {
+        a {
             text-decoration: none;
             color: #424242;
             font-size: 1.25rem;
         }
 
-        & a:hover {
+        a:hover {
             transform: scale(120%);
         }
     }
@@ -250,7 +254,7 @@ nav .donate-btn p {
     justify-content: center;
     width: 100%;
 
-    & .somebox {
+    .somebox {
         margin-top: 60px;
         display: flex;
         flex-direction: column;
@@ -258,7 +262,7 @@ nav .donate-btn p {
         gap: 1.5rem;
         width: 100%;
 
-        & button {
+        button {
             border-radius: 5px;
             border: 0.25px solid #424242;
             padding: 0;
@@ -266,11 +270,11 @@ nav .donate-btn p {
             max-width: 500px;
             height: 50px;
 
-            & h2 {
+            h2 {
                 font-size: 1.1rem;
             }
 
-            & a {
+            a {
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -290,7 +294,7 @@ nav .donate-btn p {
     align-items: center;
     margin-bottom: 80px;
 
-    & .favsong h1 {
+    .favsong h1 {
         margin-top: 80px;
         margin-bottom: 20px;
         font-size: 1.5rem;
@@ -299,21 +303,21 @@ nav .donate-btn p {
     }
 
 
-    & .favsong {
+    .favsong {
         display: flex;
         flex-direction: column;
         width: 100%;
         align-items: center;
         /* justify-content: center; */
 
-        & .song {
+        .song {
             display: flex;
             flex-direction: column;
             width: 100%;
             /* justify-content: center; */
             align-items: center;
 
-            & .song1,
+            .song1,
             .song2,
             .song3 {
                 display: flex;
@@ -325,14 +329,14 @@ nav .donate-btn p {
                 outline: 1px solid rgba(161, 161, 161, 0.438);
                 margin-bottom: 10px;
 
-                & .info {
+                .info {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     margin-left: .75rem;
                 }
 
-                & .img {
+                .img {
                     display: flex;
                     align-items: center;
                     padding: 10px;
@@ -345,16 +349,16 @@ nav .donate-btn p {
                     }
                 }
 
-                & a {
+                a {
                     text-decoration: none;
 
-                    & h1 {
+                    h1 {
                         color: #424242;
                         font-size: 1.25rem;
                         margin: 0;
                     }
 
-                    & p {
+                    p {
                         margin-top: 0.25rem;
                         color: #424242c2;
                         font-size: 1rem;
@@ -377,14 +381,14 @@ footer {
     justify-content: center;
     margin-top: 3rem;
 
-    & a {
+    a {
         color: #333333;
         text-decoration: none;
         margin-top: 4.375rem;
         margin-bottom: 1.5rem;
     }
 
-    & .cr {
+    .cr {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -392,11 +396,11 @@ footer {
         width: 90%;
         height: 60px;
 
-        & p {
+        p {
             color: #333333;
             font-size: 1rem;
 
-            & a:hover {
+            a:hover {
                 border-bottom: 1px solid #333333;
             }
         }
