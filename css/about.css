@@ -179,6 +179,8 @@ nav .donate-btn p {
     }
 
     .blog1 {
+        margin-top: 0.5rem !important;
+
         .massage {
             h1 {
                 color: #424242;
@@ -229,7 +231,7 @@ nav .donate-btn p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 4.688rem;
 
     .massage {
         display: flex;

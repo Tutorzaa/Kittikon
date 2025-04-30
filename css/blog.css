@@ -183,9 +183,10 @@ nav .donate-btn p {
         display: block !important;
 
         h1 {
-            font-size: 2.5rem !important;
             width: 100% !important;
             text-align: center;
+            font-weight: 600 !important;
+            margin-top: 0.5rem !important;
         }
 
         .contents-con {
@@ -225,23 +226,28 @@ nav .donate-btn p {
 }
 
 @media only screen and (max-width: 600px) {
-    .contents-con {
-        .content {
-            .info {
-                margin-top: 0.75rem !important;
-                
-                h2 {
-                    font-weight: 500;
-                    font-size: 1.7rem !important;
-                }
 
-                p {
-                    font-size: .7rem !important;
+    .blog1 {
+
+        .contents-con {
+            .content {
+                .info {
+                    margin-top: 0.75rem !important;
+
+                    h2 {
+                        font-weight: 500;
+                        font-size: 1.7rem !important;
+                    }
+
+                    p {
+                        font-size: .7rem !important;
+                    }
                 }
             }
         }
     }
 }
+
 .blog1 {
     display: flex;
     flex-direction: column;
