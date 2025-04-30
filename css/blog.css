@@ -191,10 +191,22 @@ nav .donate-btn p {
             .content {
                 align-items: center;
                 flex-direction: column;
+                width: 60%;
+                max-width: 23.25rem;
 
-                img {
-                    width: 101%;
-                    max-width: none;
+                .img-con {
+                    overflow: hidden;
+
+                    img {
+                        width: 101%;
+                        max-width: none;
+                    }
+                }
+
+
+                .info {
+                    margin-top: 1.5rem;
+                    margin-left: 0;
                 }
             }
         }
@@ -214,6 +226,8 @@ nav .donate-btn p {
     .contents-con {
         .content {
             .info {
+                margin-top: 0.75rem !important;
+                
                 h2 {
                     font-weight: 500;
                     font-size: 1.7rem !important;
@@ -243,10 +257,11 @@ nav .donate-btn p {
 
     .content {
         display: flex;
-        width: 60%;
+        width: 80%;
 
         .img-con {
             border: 0.047rem solid #333333;
+            max-height: 12.125rem;
 
             .img {
                 width: 100%;
@@ -263,9 +278,10 @@ nav .donate-btn p {
 
 
         .info {
-            padding: 2rem;
             display: flex;
             flex-direction: column;
+            max-height: 12.125rem;
+            margin-left: 1.5rem;
 
             a {
                 text-decoration: none;
